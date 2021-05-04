@@ -18,12 +18,8 @@ jobs:
     runs-on: "${{ matrix.os }}"
     strategy:
       matrix:
-        os: [ubuntu-latest, windows-latest]
-        java: [
-                8, # Minecraft
-                11, # LTS
-                15 # Latest
-        ]
+        os: [ubuntu-latest]
+        java: [11]
     steps:
       # Setup
       - name: Check out
