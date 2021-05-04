@@ -6,7 +6,7 @@ plugins {
     id("org.spongepowered.gradle.plugin") version "1.0.3"
 }
 
-group = "org.spongepowered"
+group = "net.kernelcraft.example"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -18,14 +18,14 @@ sponge {
     plugin("example") {
         loader(PluginLoaders.JAVA_PLAIN)
         displayName("Example")
-        mainClass("org.spongepowered.example.Example")
+        mainClass("net.kernelcraft.example.Example")
         description("Just testing things...")
         links {
-            homepage("https://spongepowered.org")
-            source("https://spongepowered.org/source")
-            issues("https://spongepowered.org/issues")
+            homepage("https://kernelcraft.net")
+            source("https://github.com/Kernelcraft-Network/plugin-template")
+            issues("https://github.com/Kernelcraft-Network/plugin-template/issues")
         }
-        contributor("Spongie") {
+        contributor("KernelFreeze") {
             description("Lead Developer")
         }
         dependency("spongeapi") {

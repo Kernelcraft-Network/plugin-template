@@ -1,4 +1,4 @@
-package org.spongepowered.example;
+package net.kernelcraft.example;
 
 import com.google.inject.Inject;
 import net.kyori.adventure.identity.Identity;
