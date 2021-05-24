@@ -19,7 +19,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        java: [11]
+        java: [16]
     steps:
       # Setup
       - name: Check out
